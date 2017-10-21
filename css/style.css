@@ -25,6 +25,7 @@ p {
   font-size: 17px;
 }
 
+
 /*h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -197,8 +198,11 @@ p {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a {
   color: #fff;
+}
+#header #logo h1 a:hover {
+  color: #03C4EB
 }
 
 #header #logo img {
@@ -930,6 +934,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer a:hover {
 	color: #7bc3d1;
 }
+
 
 /* Media Queries */
 @media(min-width:768px) {
